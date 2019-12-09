@@ -39,3 +39,10 @@ I then stored the four relevant  percent changes in a tuple, and separated the d
 )” function.  
 
 ![summary_bar](https://github.com/lorijta92/matplotlib-pharmaceuticals/blob/master/Resources/Images/summary_bar.png?raw=true)
+
+# Observations
+
+* Capomulin outperforms the other drugs as well as the placebo in terms of tumor volume, number of metastatic sites, and survival rate.
+* Of the four treatments, Capomulin is the only treatment to show negative tumor growth, shrinking by 19%, whereas the other treatments show tumor growths between 46-57%.
+* Capomulin averaged 1.4 new metastatic sites compared to the other three treatments which averaged 2-3, suggesting that the drug is also more effective at limited the spread of cancer. 
+* Capomulin has the highest survival rate at 84%, whereas the other treatments only have a survival rate of 36-44%.
