@@ -1,4 +1,7 @@
-# Goal
+# Squamous Cell Carcinoma Pharmaceutical Drug Trials
+
+
+## Goal
 
 Analyze the results of an anti-cancer drug treatment trial using Python and the Pandas and Matplotib libraries. Create visualizations showing the following:
 * Changes in tumor volume over time
@@ -6,7 +9,7 @@ Analyze the results of an anti-cancer drug treatment trial using Python and the 
 * Mice survival rate over time
 * Total percent change in tumor volume
 
-# Process
+## Process
 
 The data was held on two separate csv files, so after being read into the notebook, the files were merged into one data frame using an outer join with `pd.merge`. Then, the data was grouped by drug and timepoint, and stored as the object, `grouped_data`. I knew that I wanted to make two separate scatter plots (one for tumor volume, one for metastatic sites) with error bars, so I created two data frames (`mean_grouped_data` and `sem_grouped_data`) from `grouped_data` ready to be called for each scatter plot.
 
